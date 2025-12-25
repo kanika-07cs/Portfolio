@@ -1,4 +1,3 @@
-/* ================= RESET ================= */
 * {
   margin: 0;
   padding: 0;
@@ -26,7 +25,6 @@ img {
   display: block;
 }
 
-/* ================= GLOBAL ================= */
 .section {
   padding: 90px 8%;
 }
@@ -63,7 +61,6 @@ img {
   box-shadow: 0 20px 40px rgba(15, 23, 42, 0.08);
 }
 
-/* ================= NAVBAR ================= */
 .navbar {
   position: sticky;
   top: 0;
@@ -111,7 +108,6 @@ img {
   width: 100%;
 }
 
-/* ================= HERO ================= */
 .hero {
   padding: 120px 8% 90px;
   background: linear-gradient(180deg, #f8fafc, #eef2ff);
@@ -195,10 +191,8 @@ img {
   color: #334155;
 }
 
-/* ================= HERO IMAGE ================= */
 .hero-image {
   transform: translateX(-20px);
-  
 }
 
 .hero-avatar-ring {
@@ -229,7 +223,6 @@ img {
   border-radius: 50%;
   z-index: -1;
 }
-/* ================= ABOUT – ADVANCED STYLING ================= */
 
 .about-grid {
   display: grid;
@@ -238,7 +231,6 @@ img {
   margin-top: 24px;
 }
 
-/* ---------------- CARD BASE ---------------- */
 .about-card {
   position: relative;
   background: linear-gradient(180deg, #ffffff, #f9fbff);
@@ -254,8 +246,6 @@ img {
   box-shadow: 0 32px 65px rgba(37, 99, 235, 0.2);
 }
 
-
-/* ---------------- HEADER ---------------- */
 .about-card-header {
   display: flex;
   align-items: center;
@@ -280,7 +270,6 @@ img {
   color: #020617;
 }
 
-/* ---------------- WHO I AM ---------------- */
 .about-text {
   font-size: 0.95rem;
   color: #475569;
@@ -288,7 +277,6 @@ img {
   margin-bottom: 20px;
 }
 
-/* Tags */
 .about-tags {
   display: flex;
   flex-wrap: wrap;
@@ -304,7 +292,6 @@ img {
   font-weight: 600;
 }
 
-/* ---------------- EDUCATION TIMELINE ---------------- */
 .timeline {
   position: relative;
   margin-left: 18px;
@@ -367,7 +354,6 @@ img {
   color: #334155;
 }
 
-/* ---------------- INTERESTS ---------------- */
 .interest-tags {
   display: flex;
   flex-wrap: wrap;
@@ -392,12 +378,10 @@ img {
   transform: translateY(-3px);
 }
 
-/* ================= SKILLS SECTION ================= */
 #skills .card {
   padding: 32px;
 }
 
-/* Skill container */
 #skills .tags {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
@@ -405,7 +389,6 @@ img {
   margin-top: 18px;
 }
 
-/* Individual skill box */
 #skills .tags span {
   background: #ffffff;
   border: 1px solid #e5e7eb;
@@ -419,7 +402,6 @@ img {
   box-shadow: 0 4px 12px rgba(15, 23, 42, 0.04);
 }
 
-/* Hover effect */
 #skills .tags span:hover {
   transform: translateY(-4px);
   box-shadow: 0 14px 28px rgba(37, 99, 235, 0.15);
@@ -428,16 +410,10 @@ img {
   color: #1d4ed8;
 }
 
-
-/* ================= EXPERIENCE SECTION ================= */
-
 #experience {
   position: relative;
 }
 
-/* Two-column grid already handled by .grid-2 */
-
-/* ---------------- BLOCK TITLE ---------------- */
 .experience-block-title {
   display: flex;
   align-items: center;
@@ -462,8 +438,6 @@ img {
   color: #020617;
 }
 
-/* ================= INTERNSHIP CARD ================= */
-
 .internship-card {
   background: linear-gradient(180deg, #ffffff, #f8fafc);
   border-radius: 24px;
@@ -486,7 +460,6 @@ img {
   margin-bottom: 6px;
 }
 
-/* Company */
 .internship-card .company {
   font-size: 0.95rem;
   font-weight: 600;
@@ -494,7 +467,6 @@ img {
   margin-bottom: 14px;
 }
 
-/* Meta info */
 .internship-card .meta {
   display: flex;
   gap: 10px;
@@ -510,7 +482,6 @@ img {
   font-weight: 600;
 }
 
-/* Bullet list */
 .internship-card ul {
   list-style: none;
   padding-left: 0;
@@ -536,8 +507,6 @@ img {
   font-size: 0.9rem;
 }
 
-/* ================= HACKATHON CARDS ================= */
-
 .hackathon-card {
   background: linear-gradient(180deg, #ffffff, #f8fafc);
   border-radius: 18px;
@@ -553,7 +522,6 @@ img {
   box-shadow: 0 26px 55px rgba(37, 99, 235, 0.16);
 }
 
-/* Hackathon name */
 .hackathon-card .name {
   font-size: 1rem;
   font-weight: 700;
@@ -561,14 +529,12 @@ img {
   margin-bottom: 6px;
 }
 
-/* Hackathon theme */
 .hackathon-card .theme {
   font-size: 0.85rem;
   color: #475569;
   line-height: 1.6;
 }
 
-/* ================= PROJECTS ================= */
 .project-card {
   background: #ffffff;
   border-radius: 22px;
@@ -626,7 +592,6 @@ img {
   color: white;
 }
 
-/* ================= CONTACT ================= */
 .contact-card {
   display: flex;
   align-items: center;
@@ -667,7 +632,6 @@ img {
   cursor: pointer;
 }
 
-/* ================= FOOTER ================= */
 footer {
   text-align: center;
   padding: 30px;
